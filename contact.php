@@ -42,8 +42,8 @@
 
 			//Send Email
 			$mail->SetFrom($email, $name);
-			$address = "tom@trafficable.co.uk";
-			$mail->AddAddress($address, "Tom Maddocks");
+			$address = "add email address here";
+			$mail->AddAddress($address, "add your name here");
 			$mail->Subject = "Website Enquiry" . $name;		
 			$mail->MsgHTML($email_body);
 
